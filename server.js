@@ -19,7 +19,7 @@ app.use('/api/post', require('./routes/api/post'));
 app.use('/api/auth', require('./routes/api/auth'));
 app.use('/api/profile', require('./routes/api/profile'));
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4000;
 
 app.listen(PORT, function () {
   console.log('server running on port ' + PORT);
