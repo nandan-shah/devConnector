@@ -1,4 +1,6 @@
 {
-    "mongoURI":"mongodb+srv://Dev-user:Dev123@dev-social-network.bbyn1.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
-    "jwtSecret": "mysecret"
+  "mongoURI": "mongodb+srv://Dev-user:Dev123@dev-social-network.bbyn1.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  "jwtSecret": "mysecret",
+  "clientId": "9c385b6f2af0952ef03b",
+  "clientSecrets": "8d07fc352b9fbd677788ce52894eb2307848cdd3"
 }
