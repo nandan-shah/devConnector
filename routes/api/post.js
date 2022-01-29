@@ -95,7 +95,7 @@ router.delete('/:id', auth, async (req, res) => {
   }
 });
 
-// @route    PUT api/posts/like/:id
+// @route    PUT api/post/like/:id
 // @desc     Like a post
 // @access   Private
 router.put('/like/:id', auth, async (req, res) => {
@@ -187,7 +187,7 @@ router.post(
   }
 );
 
-// @route    DELETE api/posts/comment/:id/:comment_id
+// @route    DELETE api/post/comment/:id/:comment_id
 // @desc     Delete comment
 // @access   Private
 router.delete('/comment/:id/:comment_id', auth, async (req, res) => {
